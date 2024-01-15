@@ -1,0 +1,199 @@
+@media (max-width: 1200px) {
+  .row {
+    padding: 0 2%;
+  }
+  .hero-text-box {
+    width: 100%;
+    padding: 0 2%;
+  }
+}
+
+@media (max-width: 1023px) {
+  html {
+    font-size: 9px;
+  }
+  section {
+    padding: 60px 0;
+  }
+  .logo {
+    width: 80px;
+    margin-top: 25px;
+  }
+  h2::after {
+    margin: 20px auto 0;
+  }
+  p.long-text {
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  .steps-box:first-child {
+    margin-top: 20px;
+  }
+
+  .steps-box:last-child {
+    margin-top: 25px;
+  }
+
+  .app-screen {
+    width: 50%;
+  }
+
+  .work-step {
+    margin-bottom: 30px;
+  }
+
+  .app-btn img {
+    height: 40px;
+  }
+
+  .icon-small {
+    margin-right: 8px;
+  }
+
+  .plan-price span {
+    font-size: 5.6rem;
+  }
+  .section-plan .column-1-of-3 {
+    padding: 0 1%;
+  }
+
+  p.plan-price {
+    font-size: 1.8rem;
+  }
+  p.plan-price-meal {
+    font-size: 1.6rem;
+  }
+  .contact-form {
+    width: 80%;
+  }
+}
+
+@media (max-width: 767px) {
+  html {
+    font-size: 8px;
+  }
+  section {
+    padding: 30px 0;
+  }
+  .main-nav li {
+    display: none;
+  }
+  .hero-text-box {
+    padding: 0 4%;
+  }
+  h1 {
+    font-size: 3.8rem;
+  }
+  h2 {
+    font-size: 3.2rem;
+  }
+  p.long-text {
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 20px;
+  }
+  .icon-big {
+    margin-bottom: 8px;
+  }
+  .feature-column {
+    margin-bottom: 20px;
+  }
+  h3 {
+    margin-bottom: 10px;
+  }
+  .feature-column,
+  .steps-column,
+  .city-column,
+  .opinion-column,
+  .plan-column,
+  .contact-form {
+    width: 100%;
+  }
+  .meals-showcase li {
+    width: 50%;
+  }
+  .steps-box:first-child {
+    text-align: center;
+    padding-right: 0;
+  }
+  .steps-box:last-child {
+    padding-left: 0;
+    margin-top: 35px;
+  }
+  .app-screen {
+    width: 40%;
+  }
+  .work-step div {
+    width: 40px;
+    height: 40px;
+    padding: 3px;
+    margin-right: 15px;
+  }
+  .work-step {
+    margin-bottom: 20px;
+  }
+  .work-step:last-of-type {
+    margin-bottom: 35px;
+  }
+  .city-box p:last-child {
+    margin-bottom: 15px;
+  }
+  .opinion {
+    height: auto;
+    margin-bottom: 10px;
+  }
+  .plan-box {
+    margin-bottom: 20px;
+  }
+  .column-1-of-2.nav {
+    width: 70%;
+    padding: 0;
+  }
+  .column-1-of-2.social {
+    width: 30%;
+    padding: 0;
+  }
+  .footer-nav li {
+    margin-right: 8px;
+  }
+  .social-icon li {
+    margin-left: 12px;
+  }
+  footer {
+    padding: 30px 0;
+  }
+}
+
+@media (max-width: 480px) {
+  html {
+    font-size: 8px;
+  }
+  section {
+    padding: 25px 0;
+  }
+  .logo {
+    padding-left: 4%;
+  }
+  h1 {
+    font-size: 3.2rem;
+  }
+  h2 {
+    font-size: 2.8rem;
+  }
+  .btn {
+    display: inline-block;
+    font-size: 2rem;
+    padding: 10px 20px;
+  }
+  .btn-full {
+    margin-right: 10px;
+  }
+  .column-1-of-2.nav,
+  .column-1-of-2.social {
+    width: 100%;
+  }
+  .column-1-of-2.social {
+    margin-top: 20px;
+  }
+}
